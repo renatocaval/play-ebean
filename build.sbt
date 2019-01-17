@@ -2,7 +2,7 @@ import sbt.inc.Analysis
 import interplay.ScalaVersions._
 
 val Versions = new {
-  val play: String = playVersion(sys.props.getOrElse("play.version", "2.7.0-RC9"))
+  val play: String = playVersion(sys.props.getOrElse("play.version", "2.7.0"))
   val playEnhancer = "1.2.2"
   val ebean = "11.32.1"
   val ebeanAgent = "11.27.1"
